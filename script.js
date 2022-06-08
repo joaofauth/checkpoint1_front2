@@ -11,14 +11,16 @@ botaoEnviar.addEventListener('click', function (event) {
 
 })
 function callback() {
-    let card = `<div class="card m-2" style="width: 18rem;">
+    let card = `
+                <div class="card m-2" style="width: 22rem;">
                     <img src="${url.value}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">${titulo.value}</h5>
                         <p class="card-text">${sinopse.value}</p>
                     </div>
-                </div>`
-               
+                </div>
+                `
+
     let novoCard = document.createElement('div');
     novoCard.classList.add("novoCard")
     novoCard.innerHTML = card;

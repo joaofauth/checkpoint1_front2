@@ -1,0 +1,17 @@
+#containerCard {
+    display: flex;
+    justify-content: space-around;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.750);
+}
+
+.form-control{
+    background-color: rgb(207, 217, 217);
+}
+#cardForm{
+    background-color: rgba(178, 175, 178, 0.69);
+}
