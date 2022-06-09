@@ -1,8 +1,8 @@
 #containerCard {
     display: flex;
     justify-content: space-around;
-   flex-wrap: wrap;
-   flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 body{
@@ -13,5 +13,28 @@ body{
     background-color: rgb(207, 217, 217);
 }
 #cardForm{
-    background-color: rgba(178, 175, 178, 0.69);
+    background-color: rgba(120, 120, 120, 0.69);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.604);
+    
 }
+#cardForm label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-style{
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.604);
+    border-color: rgba(0, 0, 0, 0.628);
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+.card-style:hover{
+    transform: scale(1.1);
+}
+.card-nota{
+    font-size: 18px;
+}
+.card-titulo{
+    font-size: 24px;
+}
+
+

@@ -14,7 +14,7 @@
     <header>
         <form>
             <div class="container">
-                <div id="cardForm" class="card m-4">
+                <div id="cardForm" class="card mt-4">
                     <div class="d-flex justify-content-center">
                         <div class="col-md-8">
                             <div class="mb-3">
@@ -29,8 +29,17 @@
                                 <label for="exampleInputEmail1" class="form-label">Url da imagem</label>
                                 <input type="text" class="form-control" id="url" aria-describedby="">
                             </div>
-                            <button type="submit" id="botaoEnviar" class="btn btn-primary mb-2">Criar</button>
-                            <button type="submit" id="" class="btn btn-primary mb-2">Limpar</button>
+                            <label for="exampleInputEmail1" class="form-label">Nota</label>
+                            <select id="nota" class="form-select mb-4 mt-2" aria-label="Default select example">
+                                <option disable selected ></option>
+                                <option value="Muito Ruim">Muito Ruim</option>
+                                <option value="Ruim">Ruim</option>
+                                <option value="Bom">Bom</option>
+                                <option value="Muito Bom">Muito Bom</option>
+                                <option value="Excelente">Excelente</option>
+                              </select>
+                            <button type="submit" id="botaoEnviar" class="btn btn-danger  mb-2 ">Criar</button>
+                            <button type="submit" id="" class="btn btn-danger ms-3 mb-2">Limpar</button>
                         </div>
                     </div>
                 </div>
